@@ -1,4 +1,4 @@
-package ru.javalang.module01;
+//package ru.javalang.module01;
 
 /**
  * Пример вывода аргуметов коммандной строки
