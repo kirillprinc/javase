@@ -20,6 +20,6 @@ public class Sample411Converter {
         int n = new Scanner(System.in).nextInt();
 
         // Здесь должен быть код!
-
+            }
     }
-}
+
