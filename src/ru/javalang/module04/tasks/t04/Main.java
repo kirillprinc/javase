@@ -16,4 +16,5 @@ package ru.javalang.module04.tasks.t04;
  */
 
 public class Main {
+
 }
