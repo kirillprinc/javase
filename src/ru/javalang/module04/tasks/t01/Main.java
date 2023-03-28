@@ -19,4 +19,13 @@ package ru.javalang.module04.tasks.t01;
  *  4 7 10 13 16 19         { 4, 7, 10, 13, 16, 19 }
  */
 public class Main {
+    public static void main(String[] args) {
+        int x = 6;
+        int[] result = new int[x];
+        int y = 4;
+        for (int i = 0; i<x; i++, y+=3)
+        { result[i]=y;
+            System.out.println(result[i] + " ");
+        }
+    }
 }
