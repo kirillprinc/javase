@@ -35,7 +35,7 @@ public class Main {
 
         for (int i=0; i<n; i++)
         {
-            System.out.println("Элемент массива " + (i+1) + " " + mas[i]);
+            System.out.println("Было: " + (i+1) + " Стало " + mas[i]);
                     }
 
     }
