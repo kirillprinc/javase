@@ -20,6 +20,17 @@ public class Sample411Converter {
         int n = new Scanner(System.in).nextInt();
 
         // Здесь должен быть код!
-            }
+int m = 0; //переменная для месяца
+
+    for (int i=0; i<monthDays.length; i++)//цикл поиска нужного элемента массива
+    {n=n-monthDays[i];
+        if (n<=0)
+        {m = i ;
+        break;}
+
+    }
+        System.out.println("День: "+ (monthDays[m]+n)); //Надо вычесть число дней n из месяца что бы получить правильный день?
+        System.out.println("Месяц: "+ monthes[m]);
+    }
     }
 
