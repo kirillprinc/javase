@@ -5,4 +5,12 @@ package ru.javalang.module06.tasks.t01;
  */
 
 public class Person {
+    public String firstName;
+    public String lastName;
+    public String phoneNamber;
+    public int age;
+    public String cetRights;
+    public String modelCar;
+    public String nomberCar;
+
 }
