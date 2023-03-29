@@ -11,9 +11,12 @@ import java.time.format.DateTimeFormatter;
  */
 public class Main {
     public static void main(String[] args) {
-        String DatePattern = "yyyy-MM-dd HH:mm:ss";
-        LocalDateTime dateTime = LocalDateTime.now();
-        System.out.println(dateTime.format(DateTimeFormatter.ofPattern(DatePattern)));
+
+        String Date = "yyyy-MM-dd HH:mm:ss";
+
+        LocalDateTime dt = LocalDateTime.now();
+
+        System.out.println(dt.format(DateTimeFormatter.ofPattern(Date)));
 
     }
 }
