@@ -5,10 +5,10 @@ package ru.javalang.module06.tasks.t02;
  */
 
 public class Car {
-    public String catCar="B";
-    public String Transmission="mechanical";
-    public String nomberCar="B123JK34";
-    public int massaCar=12;
+    public String catCar;
+    public String Transmission;
+    public String nomberCar;
+    public int massaCar;
 
     public Car(String catCar, String transmission, String nomberCar, int massaCar) {
         this.catCar = catCar;
