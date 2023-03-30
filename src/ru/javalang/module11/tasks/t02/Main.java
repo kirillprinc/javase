@@ -14,8 +14,9 @@ public class Main {
         r+= values[i];
         }
         write.write(r);
-        System.out.println("Rezultat: " + r);
         in.close();
+        System.out.println("Rezultat: " + r);
+
     }
 
 }
