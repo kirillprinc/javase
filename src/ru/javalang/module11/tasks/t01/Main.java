@@ -10,14 +10,17 @@ public class Main {
         BufferedReader n = new BufferedReader(new InputStreamReader(System.in));
         PrintWriter out = new PrintWriter(System.out);
 
-        int z = 0;
+       try{ int z = 0;
         String d;
         while ((d=n.readLine())!=null)
             {int b = Integer.parseInt(d);
         z += b;}
 
         out.println(z);
-        out.flush();
+        out.flush();} catch (Exception e) {
+           System.out.println("Super Error");
+           e.printStackTrace();
+       }
 
 
     }
