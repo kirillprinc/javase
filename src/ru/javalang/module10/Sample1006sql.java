@@ -17,7 +17,7 @@ public class Sample1006sql {
 //            DriverManager.registerDriver(new org.sqlite.JDBC());
 
             //Установление соединения
-            connection = DriverManager.getConnection("jdbc:sqlite:car.s3db");
+            connection = DriverManager.getConnection("jdbc:sqlite:C:\\study\\car.s3db");
 //            connection = DriverManager.getConnection("jdbc:sqlite:C:\\test\\car.s3db");
 
             //Создание экземпляра для выполнения запросов (без параметров)
