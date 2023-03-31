@@ -12,6 +12,8 @@ public class Main {
 
         cars.add(new Car("B", "M", "E123RT34", 2012));
         cars.add(new Car("C","AT","q456yh45", 2023));
+        cars.add(new Car("C","AT","h465re78", 2023));
+        cars.add(new Car("B", "M", "K852LK63", 2021));
 
 
         Collections.sort(cars, new Comparator<Car>() {
@@ -22,7 +24,7 @@ public class Main {
         });
 
         for (Car car : cars) {
-            System.out.println(car.getCatCar()+" "+car.getTransmission()+" "+car.getNomberCar());
+            System.out.println(car.getCatCar()+" "+car.getTransmission()+" "+car.getNomberCar()+" "+car.getYers());
         }
 
     }
